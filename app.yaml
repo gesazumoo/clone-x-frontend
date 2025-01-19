@@ -1,0 +1,25 @@
+service: vue-app
+runtime: nodejs18
+instance_class: F1
+
+handlers:
+  - url: /css
+    static_dir: dist/css
+
+  - url: /img
+    static_dir: dist/img
+
+  - url: /js
+    static_dir: dist/js
+
+  - url: /
+    static_files: dist/index.html
+    upload: dist/index.html
+
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+
+env_variables:
+  NODE_ENV: production
+  SERVER_URL: https://clone-twitter-448213.el.r.appspot.com/
