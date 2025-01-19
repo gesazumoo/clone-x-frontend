@@ -1,6 +1,6 @@
 <template>
   <div>Hello World</div>
-  <div>Hello Github</div>
+  <div>Hello Github Issue</div>
 </template>
 
 <script>
