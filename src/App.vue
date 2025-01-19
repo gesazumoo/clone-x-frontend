@@ -1,5 +1,6 @@
 <template>
   <h1>Hello World</h1>
+
   <div>Hello Github Issue</div>
 </template>
 
@@ -10,5 +11,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
